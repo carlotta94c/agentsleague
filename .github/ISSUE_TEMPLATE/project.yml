@@ -1,0 +1,182 @@
+name: "🏆 Project Submission"
+description: "Submit your Agents League project to showcase your work and compete for recognition!"
+title: "Project: [Track] - [Your Project Name]"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎉 Thank you for participating in Agents League!
+        
+        Please fill out this form completely to submit your project. All fields are required for evaluation.
+        
+        **Submission Deadline**: March 1, 2025 (11:59 PM PT)
+        
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      description: Which Agents League track are you submitting to?
+      options:
+        - Creative Apps (GitHub Copilot)
+        - Reasoning Agents (Azure AI Foundry)
+        - Enterprise Agents (M365 Agents Toolkit)
+    validations:
+      required: true
+      
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: What is your project called?
+      placeholder: "e.g., AI Story Generator, Smart Budget Analyzer, Team Meeting Assistant"
+    validations:
+      required: true
+      
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub Username
+      description: Your GitHub username
+      placeholder: "@username"
+    validations:
+      required: true
+      
+  - type: input
+    id: repo-url
+    attributes:
+      label: Repository URL
+      description: Link to your public GitHub repository with the project code
+      placeholder: "https://github.com/username/project-name"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: Provide a clear overview of your project (250 words max)
+      placeholder: |
+        What does your project do?
+        What problem does it solve?
+        What are the key features?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo Video or Screenshots
+      description: Provide links to demo materials
+      placeholder: |
+        Demo Video: https://youtu.be/your-video
+        Screenshots: https://github.com/username/project/tree/main/screenshots
+        Live Demo (optional): https://your-app.com
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: tech-stack
+    attributes:
+      label: Primary Programming Language
+      options:
+        - Python
+        - TypeScript/JavaScript
+        - C#/.NET
+        - Java
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: technologies
+    attributes:
+      label: Key Technologies Used
+      description: List the main technologies, frameworks, and services used in your project
+      placeholder: |
+        - Azure OpenAI Service
+        - React / Next.js
+        - Semantic Kernel
+        - Microsoft Graph API
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Submission Requirements
+      description: Please confirm that your submission meets all requirements
+      options:
+        - label: My project meets the track-specific challenge requirements
+          required: true
+        - label: My repository includes a comprehensive README.md with setup instructions
+          required: true
+        - label: My code does not contain hardcoded API keys or secrets
+          required: true
+        - label: I have included demo materials (video or screenshots)
+          required: true
+        - label: My project is my own work with proper attribution for any third-party code
+          required: true
+        - label: I agree to the [Code of Conduct](https://github.com/microsoft/agentsleague/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+          
+  - type: textarea
+    id: setup-instructions
+    attributes:
+      label: Quick Setup Summary
+      description: Brief summary of how to run your project (evaluators will refer to your README for full details)
+      placeholder: |
+        1. Clone the repo
+        2. Install dependencies: npm install / pip install -r requirements.txt
+        3. Configure environment variables (see .env.example)
+        4. Run: npm start / python app.py
+    validations:
+      required: true
+      
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Technical Highlights
+      description: What are you most proud of in your implementation? What interesting technical decisions did you make?
+      placeholder: |
+        - Implemented novel reasoning pattern for multi-step planning
+        - Created custom caching layer for API optimization
+        - Built intuitive UI with accessibility features
+    validations:
+      required: true
+      
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Challenges & Learnings
+      description: What challenges did you face and what did you learn?
+      placeholder: Share your biggest challenge and how you solved it, or key learnings from building this project
+    validations:
+      required: false
+      
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Email or LinkedIn (optional, for winner notifications)
+      placeholder: "email@example.com or linkedin.com/in/yourprofile"
+    validations:
+      required: false
+      
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ## 📋 What Happens Next?
+        
+        1. **Review Period** (Mar 2-12): Our evaluation team will review your submission
+        2. **Community Voting**: Discord poll for Fan Favorite (Mar 2-10)
+        3. **Winners Announced**: March 13, 2025
+        
+        Make sure to:
+        - Join our [Discord](https://aka.ms/agents-league-discord) and share your project
+        - Participate in community voting
+        - Engage with other participants
+        
+        **Good luck! 🚀**
