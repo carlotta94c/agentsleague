@@ -6,7 +6,7 @@
 
 Build innovative AI agents using GitHub Copilot, Azure AI Foundry, or M365 Agents Toolkit. Compete for recognition, network with developers globally, and get feedback from Microsoft product teams.
 
-## 🎯 What's Agents League?
+## What's Agents League?
 
 A **2-week developer competition** combining:
 
@@ -17,7 +17,7 @@ A **2-week developer competition** combining:
 
 **Open to everyone** - all skill levels welcome! Watch the battles for inspiration, then build one project or compete in all three tracks.
 
-## 🎮 Three Challenge Tracks
+## Three Challenge Tracks
 
 Pick one or compete in all three!
 
@@ -26,28 +26,28 @@ Pick one or compete in all three!
 **Challenge**: Build innovative creative applications using AI-assisted development  
 **Kickoff**: Monday, Feb 16 - Live build on [Microsoft Reactor](https://aka.ms/agentsleague/battle1)  
 **Examples**: Content generators, interactive games, design tools, productivity apps  
-**[📦 View Starter Kit](./starter-kits/creative-apps/)**
+**[View Starter Kit](./starter-kits/creative-apps/)**
 
 ### 🧠 Track 2: Reasoning Agents  
 **Tool**: Azure AI Foundry  
 **Challenge**: Create intelligent agents that solve complex problems through multi-step reasoning  
 **Kickoff**: Wednesday, Feb 18 - Live build on [Microsoft Reactor](https://aka.ms/agentsleague/battle2)  
 **Examples**: Research assistants, planning engines, decision support tools  
-**[📦 View Starter Kit](./starter-kits/reasoning-agents/)**
+**[View Starter Kit](./starter-kits/reasoning-agents/)**
 
 ### 💼 Track 3: Enterprise Agents
 **Tool**: M365 Agents Toolkit  
 **Challenge**: Build business-ready knowledge agents integrated with Microsoft 365  
 **Kickoff**: Friday, Feb 20 - Live build on [Microsoft Reactor](https://aka.ms/agentsleague/battle3)  
 **Examples**: HR assistants, document analyzers, meeting summarizers  
-**[📦 View Starter Kit](./starter-kits/enterprise-agents/)**
+**[View Starter Kit](./starter-kits/enterprise-agents/)**
 
-## 📅 Timeline
+## Timeline
 
 **Week 1: Live Battles** (Feb 16-20)
 
 - Register for the Agents League - [Register Here](https://aka.ms/agentsleague/register)
-- 📽️ **Watch live coding battles** on Microsoft Reactor - see how it's done!
+- Watch live coding battles on Microsoft Reactor - see how it's done!
   - Mon Feb 16: Creative Apps battle
   - Wed Feb 18: Reasoning Agents battle
   - Fri Feb 20: Enterprise Agents battle
@@ -61,12 +61,12 @@ Pick one or compete in all three!
     - Fri Feb 27: Enterprise Agents AMA and Show & Tell
 - Check out experts' progress in Show & Tell sessions
 - Ask your questions and get help on Discord
-- Finalize your project
+- Finalize your project and [create a submission issue](https://github.com/microsoft/agentsleague/issues/new?template=project.yml)
 - Vote for your favorite projects
 
 **Deadline**: **Sunday, March 1, 2025 at 11:59 PM PT**  
 
-## 🚀 How to Participate
+## How to Participate
 
 ### 1. Choose Your Track
 Pick one of the challenge tracks based on your interests:
@@ -102,7 +102,7 @@ Before **March 1, 2025 at 11:59 PM PT**:
 - 📣 **Share your progress** in Show & Tell sessions
 - 🗳️ **Vote** for your favorite projects for Fan Favorite bonus!
 
-## 🏆 Judging
+## Judging
 
 Projects are evaluated by experts and product teams on:
 - **Meets challenge requirements** - Does it solve the problem?
@@ -113,14 +113,14 @@ Projects are evaluated by experts and product teams on:
 
 **Bonus**: Community votes for Fan Favorite + Product Team Pick
 
-## 📚 Resources
+## Resources
 
 ### 📦 Starter Kits (with setup guides & examples)
 - [Creative Apps](./starter-kits/creative-apps/) - GitHub Copilot
 - [Reasoning Agents](./starter-kits/reasoning-agents/) - Azure AI Foundry  
 - [Enterprise Agents](./starter-kits/enterprise-agents/) - M365 Toolkit
 
-## 💬 Community & Support
+### 💬 Community & Support
 
 - **Discord**: [Join Agents League Arena](https://aka.ms/agentsleague/discord) - Get help, share progress, vote
 - **YouTube**: [Microsoft Reactor](https://aka.ms/reactor) - Watch live battles and replays
