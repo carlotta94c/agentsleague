@@ -14,7 +14,7 @@
 
 ---
 
-**A 2-week AI developer challenge with live coding battles, community building, and competition.**
+**A 2-week AI developer challenge running between February 16 - 27 with live coding battles, community building, and competition.**
 
 Build innovative AI agents using GitHub Copilot, Microsoft Foundry, or M365 Agents Toolkit. Compete for recognition, network with developers globally, and get feedback from Microsoft product teams.
 
