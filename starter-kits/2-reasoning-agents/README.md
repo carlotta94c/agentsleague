@@ -33,7 +33,7 @@ Before starting this challenge, ensure you have the following:
 
 > [!WARNING]
 > **Free Tier Limitations:** The Azure free subscription has significant constraints that may prevent full implementation of this challenge:
-> - **Model access:** Some advanced models (e.g., GPT-4o, o1) may not be available or have very limited quotas
+> - **Model access:** Some advanced models (e.g., GPT-5, Claude) may not be available or have very limited quotas
 > - **Rate limits:** Strict API call limits (e.g., requests per minute, tokens per day)
 > - **Region restrictions:** Free tier resources may only be available in limited regions
 > - **Feature restrictions:** Some Microsoft Foundry features (agent orchestration, evaluations) may require pay-as-you-go
