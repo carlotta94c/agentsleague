@@ -225,7 +225,7 @@ Submissions will be scored using the following weighted criteria:
 
 ---
 
-## � Glossary
+## Glossary
 
 New to AI agents? Here's a quick reference for common terms:
 
@@ -268,7 +268,7 @@ New to AI agents? Here's a quick reference for common terms:
 
 ---
 
-## �📚 Resources
+## Resources
 
 Explore the following additional resources to deepen your knowledge and accelerate your development:
 
